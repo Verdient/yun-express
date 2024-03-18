@@ -1,0 +1,30 @@
+{
+    "name": "verdient/yun-express",
+    "description": "YunExpress",
+    "type": "library",
+    "keywords": [
+        "YunExpress"
+    ],
+    "homepage": "https://github.com/Verdient/yun-express",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/yun-express/issues",
+        "source": "https://github.com/Verdient/yun-express"
+    },
+    "require": {
+        "php": "^8.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\YunExpress\\": "src"
+        }
+    }
+}
